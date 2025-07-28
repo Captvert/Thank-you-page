@@ -776,6 +776,7 @@ font-size:  clamp(0px, 4.18604651vw, 21.21px);
 font-weight: bold;
 transition: 0.2s;
 cursor: pointer;
+white-space: nowrap;
 
 }
 
