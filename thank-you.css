@@ -238,6 +238,7 @@ body::-webkit-scrollbar-thumb:hover{
 .email-subject{
     font-size: clamp(0px, 0.6vw, 3.04px);
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .email-time{
@@ -247,6 +248,8 @@ body::-webkit-scrollbar-thumb:hover{
 .email-message{
     font-size: clamp(0px, 0.6vw, 3.04px) ;
     font-weight: 300;
+        white-space: nowrap;
+
 }
 
 
@@ -752,6 +755,34 @@ p{
     position: relative;
     top: -1.5vw;
 }
+
+.black-cta-modified{
+
+box-sizing: border-box;
+
+width: clamp(0px, 28.8vw, 146.02px);
+height: clamp(0px, 11.63vw, 58.89px);
+
+
+background: linear-gradient(90deg, #101010 0%, #000000 100%);
+border: clamp(0px, 0.2325vw, 1.18px)  solid #FFFFFF;
+box-shadow: 0px 0px clamp(0px, 1.40vw, 7.09px) #FFFFFF;
+border-radius: clamp(0px, 2.324vw, 11.78px);
+
+color: white;
+font-weight: bold;
+
+font-size:  clamp(0px, 4.18604651vw, 21.21px);
+font-weight: bold;
+transition: 0.2s;
+cursor: pointer;
+
+}
+
+.black-cta-modified:hover {
+transform: scale(1.2);
+}
+
 
 .black-cta-modified{
 
